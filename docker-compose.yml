@@ -5,7 +5,7 @@ services:
         ports:
             - 5000:5000
         volumes: 
-            - .:/code
+            - ./data:/code/data
         environment: 
             FLASK_APP: app.py
             FLASK_ENV: development
