@@ -1,0 +1,5 @@
+*.sql
+init_db.py
+.venv
+.git
+.gitignore
